@@ -1,0 +1,15 @@
+# Copyright (C) 2025 Yuki Shiga
+#
+# This program is distributed under the terms of the GNU Affero General Public License version 3.
+# For details, please refer to the LICENSE file.
+[project]
+name = "teckbookfest-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.13"
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.uv.workspace]
+members = ["model_code"]

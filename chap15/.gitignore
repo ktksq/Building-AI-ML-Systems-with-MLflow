@@ -1,0 +1,26 @@
+# Copyright (C) 2025 Yuki Shiga
+#
+# This program is distributed under the terms of the GNU Affero General Public License version 3.
+# For details, please refer to the LICENSE file.
+
+# model
+*.pt
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.databricks
+.dbxwssync
+.vscode
+
+# Environment variables
+.env
+.envrc

@@ -1,0 +1,9 @@
+# Copyright (C) 2025 Yuki Shiga
+#
+# This program is distributed under the terms of the GNU Affero General Public License version 3.
+# For details, please refer to the LICENSE file.
+command: ["python", "app.py"]
+
+env:
+  - name: "MODEL_ENDPOINT_NAME"
+    valueFrom: "model_endpoint"

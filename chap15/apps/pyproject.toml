@@ -1,0 +1,19 @@
+# Copyright (C) 2025 Yuki Shiga
+#
+# This program is distributed under the terms of the GNU Affero General Public License version 3.
+# For details, please refer to the LICENSE file.
+[project]
+name = "receipt-detection-app"
+version = "0.1.0"
+description = "レシート検出アプリケーション"
+readme = "README.md"
+requires-python = ">=3.10.13"
+license = { file = "../LICENSE" }
+dependencies = [
+    "opencv-python-headless>=4.5.0",
+    "numpy>=1.20.0",
+    "pillow>=10.0.0",
+    "pandas>=2.0.0",
+    "databricks-sdk>=0.50.0",
+    "gradio>=5.23.3",
+]

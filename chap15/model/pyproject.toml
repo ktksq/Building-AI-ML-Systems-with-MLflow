@@ -1,0 +1,22 @@
+# Copyright (C) 2025 Yuki Shiga
+#
+# This program is distributed under the terms of the GNU Affero General Public License version 3.
+# For details, please refer to the LICENSE file.
+[project]
+name = "model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.13"
+license = { file = "../LICENSE" }
+dependencies = [
+    "mlflow>=2.0.0",
+    "opencv-python>=4.5.0",
+    "numpy>=1.20.0",
+    "ultralytics>=8.0.0",
+    "torch>=1.7.1",
+    "clip",
+]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/openai/CLIP.git" }
